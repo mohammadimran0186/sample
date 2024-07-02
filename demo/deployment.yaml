@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: mohammadimran0186/task1:latest
+      - image: docker.io/mohammadimran0186/task1:latest
         name: guestbook-ui
         ports:
         - containerPort: 80
